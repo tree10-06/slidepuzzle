@@ -241,16 +241,16 @@ class _SlidePuzzleWidgetState extends State<SlidePuzzleWidget> {
                               if (slideObject.image != null) ...[
                                 slideObject.image!
                               ],
-                              Center(
-                                child: Text(
-                                  "${slideObject.indexDefault}",
-                                  style: const TextStyle(
-                                    color: Color(0xff225f87),
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
+                              // Center(
+                              //   child: Text(
+                              //     "${slideObject.indexDefault}",
+                              //     style: const TextStyle(
+                              //       color: Color(0xff225f87),
+                              //       fontSize: 12,
+                              //       fontWeight: FontWeight.bold,
+                              //     ),
+                              //   ),
+                              // ),
                             ],
                           ),
                         ),
